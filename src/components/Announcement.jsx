@@ -1,24 +1,23 @@
-import React from 'react'
-import styled from 'styled-components'
+import styled from "styled-components"
 
 const Container = styled.div`
-    height:30px;
-    background-color:teal;
-    color:white;
-    display:flex;
-    justify-content: center;
+    height: 30px;
+    background-color: teal;
+    color: white;
+    display: flex;
     align-items: center;
-    font-size:16px;
-    font-weight:500;
-`;
+    justify-content: center;
+    font-weight: bold;
+`
+
+
 
 const Announcement = () => {
-    return (
-        <Container>
-            Hello People
-        </Container>
-    )
+  return (
+    <Container>
+        Message about deals and offers! 150000% off!
+    </Container>
+  )
 }
-
 
 export default Announcement
